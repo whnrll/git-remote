@@ -18,6 +18,7 @@
     <modules>
         <module>pd-auth</module>
         <module>pd-gateway</module>
+        <module>pd-file</module>
     </modules>
     <profiles>
         <!-- 开发环境 -->
@@ -34,7 +35,7 @@
                 <pom.nacos.ip>127.0.0.1</pom.nacos.ip>
                 <pom.nacos.port>8848</pom.nacos.port>
                 <!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-                <pom.nacos.namespace>09d0e14f-107f-4fea-8f80-e59e0cc63694</pom.nacos.namespace>
+                <pom.nacos.namespace>2bdeb55f-c37c-421c-9b19-ba00324f633f</pom.nacos.namespace>
             </properties>
         </profile>
         <!-- 测试环境 -->
